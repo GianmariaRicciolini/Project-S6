@@ -22,22 +22,13 @@
               <div class="row border-bottom pb-3">
                 <div class="col-12 bg-secondary px-2 pt-1 mb-5 text-light"><p class="mb-2">Strive Student</p></div>
                 <h5 class="ps-0">Language:</h5>
-                <div class="col-6 col-md-5 bg-black border border-light">
-                  <button type="button" class="btn">English</button>
-
-                  <button
-                    type="button"
-                    class="btn bg-black dropdown-toggle dropdown-toggle-split"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <span class="visually-hidden">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Italian</a></li>
-                    <li><a class="dropdown-item" href="#">French</a></li>
-                    <li><a class="dropdown-item" href="#">Spanish</a></li>
-                  </ul>
+                <div class="custom-select p-0" style="width: 200px">
+                  <select class="bg-black px-2 py-1">
+                    <option value="0">English</option>
+                    <option value="1">Italian</option>
+                    <option value="2">French</option>
+                    <option value="3">Spanish</option>
+                  </select>
                 </div>
               </div>
               <div>
@@ -50,13 +41,25 @@
                 <div class="checkbox-div mt-3">
                   <h5>Autoplay controls</h5>
                   <div class="form-check checkbox-xl mb-1">
-                    <input class="form-check-input rounded-0" type="checkbox" value="" id="checkbox-3" checked />
+                    <input
+                      class="form-check-input rounded-0 bg-transparent border-secondary shadow-none"
+                      type="checkbox"
+                      value=""
+                      id="checkbox-3"
+                      checked
+                    />
                     <label class="form-check-label" for="checkbox-3"
                       >Autoplay next episode in a series on all devices.</label
                     >
                   </div>
                   <div class="form-check checkbox-xl">
-                    <input class="form-check-input rounded-0" type="checkbox" value="" id="checkbox-3" checked />
+                    <input
+                      class="form-check-input rounded-0 bg-transparent border-secondary shadow-none"
+                      type="checkbox"
+                      value=""
+                      id="checkbox-3"
+                      checked
+                    />
                     <label class="form-check-label" for="checkbox-3"
                       >Autoplay previews while browsing on all devices.</label
                     >
