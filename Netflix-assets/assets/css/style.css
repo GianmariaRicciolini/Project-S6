@@ -11898,4 +11898,13 @@ footer li {
   padding-block: 0.5em;
 }
 
+.edit {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.setting {
+  max-width: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
