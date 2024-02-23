@@ -11839,6 +11839,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+main .carousel {
+  padding-top: 2em;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 100%);
@@ -11885,6 +11889,13 @@ textarea.form-control-lg {
   bottom: 0;
   right: 0;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+footer {
+  padding-top: 6em;
+}
+footer li {
+  padding-block: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
